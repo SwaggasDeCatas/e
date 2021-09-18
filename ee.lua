@@ -45,7 +45,7 @@ workspace.Effects.ChildAdded:Connect(function(penis)
     end
 end)
 
-local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/SwaggasDeCatas/e/main/mat.lua"))()
 local window = Material.Load({Title = "Anime Fighters Simulator - cameron was here", Style = 3, SizeX = 500, SizeY = 350, Theme = "Aqua"})
 local tab = window.New({Title = "Main"})
 tab.Toggle({Text = "Enabled", Callback = function(v) farm = v end})
